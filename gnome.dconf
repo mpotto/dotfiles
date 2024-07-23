@@ -1,32 +1,3 @@
-[apps/audio-recorder]
-append-to-file=false
-audio-device-id='default-device'
-audio-device-name="System's default device"
-audio-device-type=1
-filename-pattern='%Y-%m-%d-%H:%M:%S'
-folder-name='/home/mpotto/Audio'
-keep-on-top=false
-media-format='CD Quality, MP3 Lossy 44KHz'
-saved-profiles=@a(ssss) []
-settings-expanded=true
-started-first-time=false
-timer-active=false
-timer-expanded=true
-timer-setting-counter=47
-timer-text='#start at 02:20 pm\n#stop at 15:00\n#stop after 1h 30min\nstop if silence 4s 20%\n#stop if silence | 100MB\n#start if voice 0.3\n#start if voice 30%'
-
-[apps/audio-recorder/players]
-saved-player-list=@as []
-
-[apps/audio-recorder/track]
-album-name=''
-artist-name=''
-last-file-name='/home/mpotto/Audio/2023-06-25-15:34:30.mp3'
-track-len=0
-track-pos=0
-track-title=''
-url=''
-
 [apps/seahorse/listing]
 keyrings-selected=['gnupg://']
 
@@ -54,17 +25,6 @@ text-scale-factor=1.0
 
 [com/canonical/unity/launcher]
 favorites=['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox_firefox.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://org.gnome.Software.desktop', 'application://unity-control-center.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
-
-[com/github/babluboy/bookworm]
-book-being-read=''
-library-view-mode='LIBRARY_MODE_GRID'
-pos-x=383
-pos-y=123
-window-height=806
-window-width=1417
-
-[com/ubuntu/sound]
-allow-amplified-volume=true
 
 [com/ubuntu/update-notifier]
 no-show-notifications=true
@@ -177,11 +137,6 @@ arrow-base-color='#e6e6e6d9'
 arrow-shadow-color='#dcdcdcd9'
 thumb-highlight-gradient-shadow-color='#dfdfdfff'
 
-[org/gnome/Sudoku]
-window-height=630
-window-is-maximized=false
-window-width=730
-
 [org/gnome/Totem]
 active-plugins=['variable-rate', 'rotation', 'vimeo', 'apple-trailers', 'recent', 'movie-properties', 'skipto', 'screensaver', 'mpris', 'autoload-subtitles', 'screenshot', 'save-file', 'open-directory']
 subtitle-encoding='UTF-8'
@@ -190,63 +145,6 @@ subtitle-encoding='UTF-8'
 active-chart='rings'
 window-size=(960, 1011)
 window-state=43908
-
-[org/gnome/brasero/plugins/audio2cue]
-priority=0
-
-[org/gnome/brasero/plugins/burn-uri]
-priority=0
-
-[org/gnome/brasero/plugins/cdrdao]
-priority=0
-
-[org/gnome/brasero/plugins/dvd-rw-format]
-priority=0
-
-[org/gnome/brasero/plugins/dvdauthor]
-priority=0
-
-[org/gnome/brasero/plugins/dvdcss]
-priority=0
-
-[org/gnome/brasero/plugins/file-checksum]
-priority=0
-
-[org/gnome/brasero/plugins/file-downloader]
-priority=0
-
-[org/gnome/brasero/plugins/genisoimage]
-priority=0
-
-[org/gnome/brasero/plugins/growisofs]
-priority=0
-
-[org/gnome/brasero/plugins/image-checksum]
-priority=0
-
-[org/gnome/brasero/plugins/libburn]
-priority=0
-
-[org/gnome/brasero/plugins/libisofs]
-priority=0
-
-[org/gnome/brasero/plugins/normalize]
-priority=0
-
-[org/gnome/brasero/plugins/readom]
-priority=0
-
-[org/gnome/brasero/plugins/transcode]
-priority=0
-
-[org/gnome/brasero/plugins/transcode2vob]
-priority=0
-
-[org/gnome/brasero/plugins/vcdimager]
-priority=0
-
-[org/gnome/brasero/plugins/wodim]
-priority=0
 
 [org/gnome/calculator]
 accuracy=9
@@ -280,49 +178,6 @@ video-y-resolution=540
 
 [org/gnome/control-center]
 last-panel='user-accounts'
-
-[org/gnome/deja-dup]
-backend='google'
-delete-after=0
-exclude-list=['/media/storage/Projetos/Mestrado/Artigo AISTATS', '/media/storage/Projetos/Mestrado/Artigo arXi', '/media/storage/Projetos/Mestrado/Artigo UAI']
-include-list=['/media/storage', '/media/storage/Documents', '/media/storage/Funding', '/media/storage/Personal', '/media/storage/Pictures', '/media/storage/Research', '/media/storage/Study', '/media/storage/Teaching']
-last-backup='2023-04-06T12:33:32.497627Z'
-last-run='2023-04-06T12:30:38.554244Z'
-nag-check='2023-03-27T13:09:14.894942Z'
-periodic=false
-prompt-check='2020-06-17T17:40:19.253469Z'
-
-[org/gnome/deja-dup/drive]
-folder='mpotto'
-
-[org/gnome/deja-dup/file]
-migrated=true
-
-[org/gnome/deja-dup/gcs]
-folder='mpotto'
-
-[org/gnome/deja-dup/goa]
-folder='Backup - Ubuntu'
-id='account_1592858346_0'
-type='google'
-
-[org/gnome/deja-dup/google]
-folder=''
-
-[org/gnome/deja-dup/local]
-folder='mpotto'
-
-[org/gnome/deja-dup/openstack]
-container='mpotto'
-
-[org/gnome/deja-dup/rackspace]
-container='mpotto'
-
-[org/gnome/deja-dup/remote]
-folder='mpotto'
-
-[org/gnome/deja-dup/s3]
-folder='mpotto'
 
 [org/gnome/desktop/a11y]
 always-show-universal-access-status=false
@@ -375,10 +230,6 @@ gtk-theme='Yaru'
 icon-theme='Yaru'
 show-battery-percentage=true
 toolkit-accessibility=true
-
-[org/gnome/desktop/notifications]
-application-children=['libreoffice-writer', 'update-manager', 'firefox', 'org-gnome-software', 'org-gnome-gedit', 'org-gnome-nautilus', 'inkscape', 'apport-gtk', 'eog', 'gnome-control-center', 'transmission-gtk', 'evince', 'flameshot', 'dropbox', 'org-gnome-dejadup', 'libreoffice-calc', 'google-earth-pro', 'gnome-network-panel', 'zotero', 'gnome-system-monitor-gnome-system-monitor', 'rstudio', 'shotwell', 'org-gnome-terminal', 'virtscreen', 'kazam', 'org-gnome-totem', 'skychart', 'gnome-calculator-gnome-calculator', 'rhythmbox', 'code', 'foxitreader', 'libreoffice-draw', 'sublime-text', 'gnome-power-panel', 'gnome-printers-panel', 'xdg-desktop-portal-gtk', 'org-gnome-eog', 'com-github-xournalpp-xournalpp', 'inkscape-inkscape', 'org-inkscape-inkscape', 'org-gnome-evince', 'mendeleydesktop', 'vokoscreen-ng-vokoscreen-ng', 'org-remmina-remmina', 'ulauncher', 'google-chrome', 'zoom', 'org-gnome-baobab', 'spotify', 'r', 'calibre-gui', 'org-gnome-fileroller', 'snap-store-ubuntu-software-local-file', 'mountable-volume-56fda0d7-7d0f-4beb-881d-c011c2c89a99', 'firefox-firefox', 'insync', 'obsidian', 'appimagekit-pcloud', 'org-qgis-qgis', 'mountable-volume-00008030-001e1c9a2150c02e', 'software-properties-gtk', 'thunderbird', 'org-keepassxc-keepassxc', 'libreoffice-math', 'gnome-session-properties', 'nm-connection-editor']
-show-banners=true
 
 [org/gnome/desktop/notifications/application/appimagekit-pcloud]
 application-id='appimagekit-pcloud.desktop'
@@ -923,10 +774,6 @@ preferred-monitor-by-connector='primary'
 
 [org/gnome/shell/overrides]
 edge-tiling=false
-
-[org/gnome/simple-scan]
-document-type='photo'
-save-directory='/home/mpotto/Dropbox/Disciplinas/Probabilidade Avançada/Provas'
 
 [org/gnome/software]
 check-timestamp=int64 1721652158
