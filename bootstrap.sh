@@ -6,6 +6,8 @@ system_type=$(uname -s)
 # Programs whose configuration files will be symlinked
 to_symlink=(bash git zsh)
 
+read -p "Enter your username: " USER
+
 if [ "$system_type" = "Linux" ]; then
     sudo apt install stow
     
@@ -42,6 +44,10 @@ else
     brew bundle install
 
     # Install Oh-My-Zsh and Plugins
+    if [ -d /Users/$USER/.oh-my-zsh ]; then 
+    	sudo rm -r /Users/$USER/.oh-my-zsh
+    fi
+    
     ./scripts/programs/oh-my-zsh.sh
     
     stow ${to_symlink[@]} --target ${HOME} --adopt
