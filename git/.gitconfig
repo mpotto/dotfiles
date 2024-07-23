@@ -1,5 +1,18 @@
+[user]
+        name = Mateus Piovezan Otto
+        email = 24721174+mpotto@users.noreply.github.com
+        signingkey = 0FCEB2569200C212
+[core]
+        excludesfile = ~/.gitignore
+        editor = nano
 [credential]
-	helper = 
-	helper = /usr/local/bin/git-credential-manager
+        credentialStore = gpg
+        helper =
+        helper = /usr/local/bin/git-credential-manager
+[init]
+        defaultBranch = main
+[commit]
+        gpgsign = true
 [credential "https://dev.azure.com"]
-	useHttpPath = true
+        useHttpPath = true
+

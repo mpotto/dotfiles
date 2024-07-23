@@ -4,6 +4,10 @@ My configuration files.
 
 ## Setup 
 
+* If running on macOS, do:
+```    
+xcode-select --install 
+```
 * Clone dotfiles repo.
 ```
 git clone [repo-url] ~/.dotfiles 

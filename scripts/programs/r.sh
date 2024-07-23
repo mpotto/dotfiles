@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # update indices
 sudo apt update -qq
