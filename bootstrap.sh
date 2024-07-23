@@ -16,7 +16,6 @@ if [ "$system_type" = "Linux" ]; then
     # Check zsh version
     echo "Current zsh version is $(zsh --version)"
     if [ $? -ne 0 ]; then
-        echo "zsh was not properly installed. Manually setup zsh before proceeding..."
         exit 1
     else
         chsh -s $(which zsh)
