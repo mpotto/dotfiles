@@ -19,4 +19,3 @@ install git
 install tmux
 install vim 
 install zsh
-install cargo
