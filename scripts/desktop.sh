@@ -1,11 +1,19 @@
 #!/bin/bash
 
-sudo apt install -y gnome-tweaks chrome-gnome-shell
-git clone https://github.com/micheleg/dash-to-dock.git dock
-cd dock && make install
-cd ..
-rm -rf dock
-gnome-extensions enable -e ubuntu-dock@ubuntu.com
-# gnome-extensions-app for interactive use.
+# Setup JetBrains font
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+fc-cache -f -v
 
-dconf load /org/gnome < ../../gnome.dconf
+# Install Dash-to-Dock extension
+gdbus call --session \                               
+           --dest org.gnome.Shell.Extensions \
+           --object-path /org/gnome/Shell/Extensions \
+           --method org.gnome.Shell.Extensions.InstallRemoteExtension \
+           "dash-to-dock@micxgx.gmail.com"
+
+gnome-extensions enable dash-to-dock@micxgx.gmail.com
+# gnome-extensions-app for interactive usage
+
+# Setting bar and other GNOME relevant configurations. 
+./gnome-settings.sh
+
