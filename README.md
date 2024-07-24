@@ -44,4 +44,3 @@ Will be handled in docs folder. creation, exporting, storage.
 * Add `macchina` support and themes.
 * Improve `zsh` theme and color integration with `macchina`.
 * Add `pipx` support and `jrnl`.
-* Improve `GNOME` settings portability.
