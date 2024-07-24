@@ -4,6 +4,9 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
 fc-cache -f -v
 
+# Setting up oh-my-zsh theme
+cp ~/.dotfiles/oh-my-zsh/mpotto.zsh-theme ~/.oh-my-zsh/themes
+
 # Install Dash-to-Dock extension
 gdbus call --session \                               
            --dest org.gnome.Shell.Extensions \
