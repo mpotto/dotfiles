@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "r-lib/rig"
 
 brew "docker"
@@ -13,10 +14,10 @@ brew "zsh-syntax-highlighting"
 
 cask "calibre"
 cask "dropbox"
+cask "font-jetbrains-mono"
 cask "google-chrome"
 cask "git-credential-manager"
 cask "inkscape"
-cask "iterm2"
 cask "jabref"
 cask "keepassxc"
 cask "miniconda"
