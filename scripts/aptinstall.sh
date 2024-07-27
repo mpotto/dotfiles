@@ -19,3 +19,6 @@ install git
 install tmux
 install vim 
 install zsh
+install pipx
+
+pipx ensurepath
