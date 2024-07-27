@@ -19,4 +19,4 @@ sh ./bootstrap.sh
 ```
 
 ## TODO
-* Add `pipx` support and `jrnl`.
+* Add support for `rstudio`.
