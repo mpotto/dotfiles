@@ -27,6 +27,8 @@ if [ "$system_type" = "Linux" ]; then
     # https://unix.stackexchange.com/questions/680413/opposite-of-adopt-option-for-gnu-stow
     stow ${to_symlink[@]} --target ${HOME} --adopt
     git reset --hard
+    
+    stow jrnl --target ${HOME}/.config/jrnl 
 
     sudo apt upgrade -y
 
