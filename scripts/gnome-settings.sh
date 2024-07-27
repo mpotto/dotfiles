@@ -78,7 +78,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-
 gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink true
 gsettings set org.gnome.shell.extensions.dash-to-dock customize-alphas false
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 20
-gsettings set org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup false
+gsettings set org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height true
