@@ -4,7 +4,7 @@
 system_type=$(uname -s)
 
 # Programs whose configuration files will be symlinked
-to_symlink=(bash git zsh)
+to_symlink=(bash git zsh tmux)
 
 read -p "Enter your username: " USER
 

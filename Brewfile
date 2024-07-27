@@ -11,6 +11,7 @@ brew "ruby"
 brew "zsh"
 brew "pdm"
 brew "pipx"
+brew "tmux"
 brew "zsh-syntax-highlighting"
 
 cask "calibre"
