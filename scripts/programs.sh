@@ -40,6 +40,7 @@ cd programs/
 
 ./oh-my-zsh.sh
 ./docker.sh
+./gh.sh
 ./keepassxc.sh
 ./miniconda.sh
 ./pdm.sh
