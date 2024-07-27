@@ -1,0 +1,26 @@
+colors:
+  body: none
+  date: black
+  tags: yellow
+  title: cyan
+default_hour: 9
+default_minute: 0
+editor: nano
+encrypt: true
+highlight: true
+indent_character: '|'
+journals:
+  default:
+    encrypt: true
+    journal: /home/mpotto/.local/share/jrnl/journal.txt
+  personal:
+    encrypt: false
+    journal: ~/Dropbox/Journals/Personal.txt
+  research:
+    encrypt: false
+    journal: ~/Dropbox/Journals/Research.txt
+linewrap: 79
+tagsymbols: '#@'
+template: false
+timeformat: '%F %r'
+version: v4.1

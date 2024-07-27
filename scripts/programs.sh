@@ -55,8 +55,6 @@ install dropbox
 install zoom
 install vscode 
 
-# Install macchina
-cargo install macchina
-
+pipx install jrnl
 
 
