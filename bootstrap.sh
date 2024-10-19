@@ -36,8 +36,7 @@ if [ "$system_type" = "Linux" ]; then
 else
 
     ./scripts/programs/homebrew.sh
-    # Install homebrew?
-    
+    eval "$(/opt/homebrew/bin/brew shellenv)"
     brew install stow
 
     brew bundle install
