@@ -37,7 +37,7 @@ if [ "$system_type" = "Linux" ]; then
 
 else
 
-    ./scripts/homebrew.sh
+    ./scripts/programs/homebrew.sh
     # Install homebrew?
     
     brew install stow
