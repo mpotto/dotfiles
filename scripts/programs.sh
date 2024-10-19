@@ -56,6 +56,3 @@ install dropbox
 install zoom
 install vscode 
 
-pipx install jrnl
-
-

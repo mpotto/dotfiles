@@ -28,8 +28,6 @@ if [ "$system_type" = "Linux" ]; then
     stow ${to_symlink[@]} --target ${HOME} --adopt
     git reset --hard
     
-    stow jrnl --target ${HOME}/.config/jrnl 
-
     sudo apt upgrade -y
 
     source ~/.bashrc
@@ -53,8 +51,7 @@ else
     
     stow ${to_symlink[@]} --target ${HOME} --adopt
     git reset --hard
-    
-    stow jrnl --target ${HOME}/.config/jrnl 
+
 fi
 
 # Conda init shells
